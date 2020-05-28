@@ -10,7 +10,7 @@ def search():
     elif bool == False:
         install = app.yesno("Fail", "The module haven't been found in the system. Install module?")
         if install == True:
-            app.info("Installing...", "Installing the module, please wait")
+            app.info("Installing...", "Installing the module, please click on 'OK' and wait")
             call(['xterm', '-e', 'pip3', 'install', mod])
         else:
             app.info("Okay!", "Okay, good luck Pythonista!")
