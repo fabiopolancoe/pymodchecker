@@ -15,7 +15,10 @@ pip3 install tkinter guizero
 ```
 sudo apt-get install xterm
 ```
+Finally download and execute pymodchecker.py
 #### Automatic install
 ```
-wget https://github.com/fabiopolancoe/pymodchecker/blob/master/install.sh -O – | sh
+wget https://github.com/fabiopolancoe/pymodchecker/blob/master/install.sh
+sudo bash pymodchecker.sh
 ```
+I will try to fix it so you can call it from a single command with no args
