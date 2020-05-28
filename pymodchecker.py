@@ -13,10 +13,10 @@ def search():
             app.info("Installing...", "Installing the module, please wait")
             call(['xterm', '-e', 'pip3', 'install', mod])
         else:
-            app.info("Okay!", "Okay, good luck Pythoneer!")
+            app.info("Okay!", "Okay, good luck Pythonista!")
 
-app = App(title="PyChecker", height=200)
-label1 = Text(app, text="Welcome to PyChecker, let's check for installed Python modules")
+app = App(title="PyModChecker", height=200)
+label1 = Text(app, text="Welcome to Pythonista, let's check for installed Python modules")
 label2 = Text(app, text="Type the name of the module you're searching for")
 packname = TextBox(app, width=50)
 get = PushButton(app, text="Search module", command=search)
