@@ -11,7 +11,7 @@ def search():
         install = app.yesno("Fail", "The module haven't been found in the system. Install module?")
         if install == True:
             app.info("Installing...", "Installing the module, please click on 'OK' and wait")
-            call(['sudo', 'pip3', 'install', mod])
+            call(['sudo', 'pip', 'install', mod])
         else:
             app.info("Okay!", "Okay, good luck Pythonista!")
 
