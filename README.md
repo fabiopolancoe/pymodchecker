@@ -19,6 +19,7 @@ Finally download and execute pymodchecker.py
 #### Automatic install
 ```
 wget https://github.com/fabiopolancoe/pymodchecker/blob/master/install.sh
+./install.sh
 sudo bash pymodchecker.sh
 ```
 I will try to fix it so you can call it from a single command with no args
