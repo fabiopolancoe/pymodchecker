@@ -24,3 +24,5 @@ sudo bash install.sh
 pymodchecker
 ```
 This sould now run from a direct command
+
+### **Note:** Please delete the pymodchecker and pymodchecker.py files from /usr/bin after upgrading to a new release or the upgrade will not work.
