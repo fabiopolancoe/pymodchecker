@@ -1,8 +1,7 @@
 echo Welcome to PyChecker installer
 pip3 install tkinter guizero
-sudo apt-get install xterm
-cd /usr/local/bin
+cd /usr/bin
 sudo wget https://github.com/fabiopolancoe/pychecker/blob/master/pymodchecker.py
-sudo wget https://github.com/fabiopolancoe/pychecker/blob/master/pymodchecker.sh
+sudo wget https://github.com/fabiopolancoe/pychecker/blob/master/pymodchecker
+sudo chmod 777 pymodchecker
 echo Installed, issue pymodchecker in terminal to run 
-
