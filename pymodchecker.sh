@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo python3 pymodchecker.py
+sudo python3 /usr/bin/pymodchecker.py
