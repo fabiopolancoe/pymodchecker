@@ -11,16 +11,15 @@ PyChecker is the solution, a **GUI** tool that checks if a Python module is inst
 ```
 pip3 install tkinter guizero
 ```
-```
-sudo apt-get install xterm
-```
 Finally download and execute pymodchecker.py
 #### Automatic install :robot:
 ```
 wget https://github.com/fabiopolancoe/pymodchecker/blob/master/install.sh
-
+```
+```
 sudo bash install.sh
-
+```
+```
 pymodchecker
 ```
 This sould now run from a direct command
