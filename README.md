@@ -18,7 +18,9 @@ Finally download and execute pymodchecker.py
 #### Automatic install :robot:
 ```
 wget https://github.com/fabiopolancoe/pymodchecker/blob/master/install.sh
-./install.sh
+
+sudo bash install.sh
+
 pymodchecker
 ```
 This sould now run from a direct command
